@@ -11,3 +11,9 @@
 - **Cross-Platform**	Runs on Windows, Linux, MacOS, etc.
 - **Object-Oriented & Procedural**	Supports both OOP and functional styles
 - **Extensive Libraries**	Comes with a rich standard library and external packages
+
+## Python setup on Window
+
+> https://www.python.org/
+
+> https://code.visualstudio.com/ 
