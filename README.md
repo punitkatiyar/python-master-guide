@@ -16,4 +16,13 @@
 
 > https://www.python.org/
 
-> https://code.visualstudio.com/ 
+> https://code.visualstudio.com/
+
+## Python Setup On VPS Server
+
+> sudo apt update
+
+> sudo apt upgrade -y
+
+> python3 --version
+
