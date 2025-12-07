@@ -18,6 +18,10 @@
 
 > https://code.visualstudio.com/
 
+## Online Editor
+
+> https://colab.research.google.com 
+
 ## Python Setup On VPS Server
 
 > sudo apt update
