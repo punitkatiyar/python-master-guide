@@ -23,13 +23,7 @@ z = 0
 
 **✔ Use Cases**
 
-> Counters, loops
-
-> Mathematical operations
-
-> Indexing items
-
-> Age, quantity, IDs
+> Counters, loops , Mathematical operations, Indexing items, Age, quantity, IDs etc
 
 
 ## 2. float (Floating Point Number) Numbers with decimal points.
