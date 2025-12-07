@@ -1,10 +1,15 @@
 # Python Data Types
 **Python has several built-in data types that help you store, organize, and process data efficiently.**
 
+1. **Primitive Types** → int, float, complex, bool, str
+2. **Collection Types** → list, tuple, set, dict
+3. **Special Types** → NoneType, bytes, bytearray, range
 
-## 1. **Primitive Types** → int, float, complex, bool, str
 
-### 1. int (Integer) Whole numbers (positive, negative, or zero).
+
+# Primitive Types
+
+## 1. int (Integer) Whole numbers (positive, negative, or zero).
 
 **✔ Example**
 
@@ -27,7 +32,7 @@ z = 0
 > Age, quantity, IDs
 
 
-### 🔹 2. float (Floating Point Number) Numbers with decimal points.
+## 2. float (Floating Point Number) Numbers with decimal points.
 
 **✔ Example**
 
@@ -98,7 +103,6 @@ Storing text from database/API
 
 
 
-2. **Collection Types** → list, tuple, set, dict
-3. **Special Types** → NoneType, bytes, bytearray, range
+
 
 
