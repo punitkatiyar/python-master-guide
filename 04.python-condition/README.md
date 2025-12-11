@@ -24,7 +24,21 @@
 
 > Temperature Alert System
 
-> Age-based Ticket Pricing   
+> Age-based Ticket Pricing
+
+## Mini Project
+
+> 🚀 1. ATM Cash Withdrawal System
+
+> 🚀 2. E-Commerce Coupon & Discount System
+
+> 🚀 3. Traffic Light Simulator
+
+>  🚀 4. Hospital Temperature Screening App
+
+> 🚀 5. Library Fine Calculator
+
+>  🚀 6. Basic Password Strength Checker
 
 
 
