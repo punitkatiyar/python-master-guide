@@ -1,4 +1,4 @@
-# A variable is a name that stores a value in memory.
+# A variable (container ) is a name that stores a value in memory.
 
 > 1. Dynamic Typing
 
