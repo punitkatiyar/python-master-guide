@@ -33,15 +33,26 @@
 
 README.md
 │
+
 ├── Project Title
+
 ├── Description
+
 ├── Features
+
 ├── Installation
+
 ├── Usage
+
 ├── Folder Structure
+
 ├── Screenshots
+
 ├── API
+
 ├── Contributing
+
 ├── License
+
 └── Contact
 
