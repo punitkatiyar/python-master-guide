@@ -33,8 +33,6 @@
 
 ## Project Structure
 
-│
-
 ├── Project Title
 
 ├── Description
