@@ -29,5 +29,19 @@
 - sudo apt install -y python3 python3-pip 
 - python3 --version
 - pip3 --version
-- sudo apt install -y python3-venv 
+- sudo apt install -y python3-venv
+
+README.md
+│
+├── Project Title
+├── Description
+├── Features
+├── Installation
+├── Usage
+├── Folder Structure
+├── Screenshots
+├── API
+├── Contributing
+├── License
+└── Contact
 
