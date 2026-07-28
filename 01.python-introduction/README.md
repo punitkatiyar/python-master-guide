@@ -20,7 +20,7 @@
 
 ## Python Comments
 
-```
+```python
 # python single line comments
 
 """
@@ -29,10 +29,10 @@ comments
 """
 ```
 
-```
+```python
 print("Hello Python")
 ```
 
-```
+```python
 input("Enter Your Message")
 ```
