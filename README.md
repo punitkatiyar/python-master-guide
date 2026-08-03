@@ -23,6 +23,21 @@
 | Requests | HTTP Requests                  | Consume REST APIs         | `pip install requests` |
 | httpx    | Async HTTP Client              | Async API calls           | `pip install httpx`    |
 
+## Generative AI & LLMs
+
+| Package               | Purpose                              |
+| --------------------- | ------------------------------------ |
+| openai                | OpenAI API                           |
+| transformers          | Hugging Face Models                  |
+| langchain             | LLM Applications                     |
+| llama-index           | Retrieval-Augmented Generation (RAG) |
+| chromadb              | Vector Database                      |
+| faiss-cpu             | Similarity Search                    |
+| sentence-transformers | Text Embeddings                      |
+| tiktoken              | Token Counting                       |
+| ollama                | Local LLM Integration                |
+
+
 
 ## Scope Of Python Language 
 
