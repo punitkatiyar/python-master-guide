@@ -12,6 +12,22 @@
 - **Object-Oriented & Procedural**	Supports both OOP and functional styles
 - **Extensive Libraries**	Comes with a rich standard library and external packages
 
+## Scope Of Python Language 
+
+| Field                   | Use Case                   |
+| ----------------------- | -------------------------- |
+| Web Development         | Build websites and APIs    |
+| Data Science            | Analyze and visualize data |
+| Machine Learning        | Train predictive models    |
+| Artificial Intelligence | Build intelligent systems  |
+| Automation              | Automate repetitive tasks  |
+| Game Development        | Create games               |
+| Cybersecurity           | Security tools and scripts |
+| Desktop Applications    | Build GUI applications     |
+| Cloud Computing         | Manage cloud services      |
+| IoT                     | Program smart devices      |
+
+
 ## Python setup on Window
 
 > https://www.python.org/
