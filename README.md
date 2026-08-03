@@ -12,6 +12,18 @@
 - **Object-Oriented & Procedural**	Supports both OOP and functional styles
 - **Extensive Libraries**	Comes with a rich standard library and external packages
 
+## Web Development Package
+
+| Package  | Purpose                        | Use Case                  | Install                |
+| -------- | ------------------------------ | ------------------------- | ---------------------- |
+| Flask    | Lightweight web framework      | REST API, Small Websites  | `pip install flask`    |
+| Django   | Full-stack web framework       | Large Web Applications    | `pip install django`   |
+| FastAPI  | High-performance API framework | AI APIs, Backend Services | `pip install fastapi`  |
+| Uvicorn  | ASGI Server                    | Run FastAPI applications  | `pip install uvicorn`  |
+| Requests | HTTP Requests                  | Consume REST APIs         | `pip install requests` |
+| httpx    | Async HTTP Client              | Async API calls           | `pip install httpx`    |
+
+
 ## Scope Of Python Language 
 
 | Field                   | Use Case                   |
