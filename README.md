@@ -67,27 +67,5 @@
 - pip3 --version
 - sudo apt install -y python3-venv
 
-## Project Structure
 
-├── Project Title
-
-├── Description
-
-├── Features
-
-├── Installation
-
-├── Usage
-
-├── Folder Structure
-
-├── Screenshots
-
-├── API
-
-├── Contributing
-
-├── License
-
-└── Contact
 
