@@ -37,6 +37,15 @@
 | tiktoken              | Token Counting                       |
 | ollama                | Local LLM Integration                |
 
+## API Development
+
+| Package  | Purpose         |
+| -------- | --------------- |
+| FastAPI  | REST APIs       |
+| Pydantic | Data Validation |
+| Uvicorn  | API Server      |
+
+
 
 
 ## Scope Of Python Language 
