@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Master Guide </title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+
+<body>
+
+    <textarea id="md" rows="15" cols="60">
+# Hello World
+
+This is **Markdown**.
+
+- HTML
+- CSS
+- JavaScript
+</textarea>
+
+
+    <div id="output"></div>
+    <script>
+        const textarea = document.getElementById("md");
+        const output = document.getElementById("output");
+
+        function render() {
+            output.innerHTML = marked.parse(textarea.value);
+        }
+
+        textarea.addEventListener("input", render);
+        render();
+    </script>
+
+</body>
+
+</html>
