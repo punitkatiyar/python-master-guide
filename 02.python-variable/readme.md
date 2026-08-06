@@ -10,12 +10,12 @@
 
 > 5. Changing (Reassigning) Variable Values 
 
+---
+
 ```py
 # Variable : Name : Name convention : 
 
 # data Type : int , float , string , boolen
-
-# data = input("Enter Your Name ");
 
 data = "Hello";
 data = "Welcome";
@@ -35,6 +35,5 @@ mydata="I";
 MyData="J";
 
 print(mydata);
-
 ```
 
