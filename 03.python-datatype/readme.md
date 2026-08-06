@@ -7,7 +7,7 @@
 
 ## how to input data using Python
 
-```
+```py
 # 1. Basic Input in Python
 
 variable = input("Enter something: ");
