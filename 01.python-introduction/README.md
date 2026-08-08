@@ -35,6 +35,9 @@ input("Enter Your Message")
 ```
 ## Python On vs-code with Terminal and jupyter 
 
+- .py
+- .ipynb
+
 
 
 
