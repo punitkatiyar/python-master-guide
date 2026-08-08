@@ -16,20 +16,16 @@
 | Desktop Applications    | Build GUI applications     |
 | Cloud Computing         | Manage cloud services      |
 | IoT                     | Program smart devices      |
-
 ---
-
 ## Python Comments
 
 ```python
 # python single line comments
-
 """
 mutli line
 comments
 """
 ```
-
 ## Python Request And Response Method
 
 ```python
@@ -39,7 +35,6 @@ print("Hello Python")
 ```python
 input("Enter Your Message")
 ```
-
 ## Python On vs-code with Terminal and jupyter 
 
 
