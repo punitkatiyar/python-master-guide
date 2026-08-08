@@ -30,9 +30,7 @@ comments
 
 ```python
 print("Hello Python")
-```
 
-```python
 input("Enter Your Message")
 ```
 ## Python On vs-code with Terminal and jupyter 
