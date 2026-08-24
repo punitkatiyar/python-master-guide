@@ -1,5 +1,10 @@
 # Python Loops
 
+**A loop in Python is used to execute a block of code repeatedly until a condition becomes false or all items in a sequence have been processed and Python provides two types of loops**
+
+> for loop
+> while loop
+
 | Feature               | for Loop                 | while Loop                        |
 | --------------------- | ------------------------ | --------------------------------- |
 | Best For              | Iterating over sequences | Running until a condition changes |
