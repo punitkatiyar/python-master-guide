@@ -4,8 +4,8 @@
 
 ## Where is Python Used?
 
-| Field                   | Use Case                   |
-| ----------------------- | -------------------------- |
+| Field                           | Use Case                           |
+| ------------------------------- | ---------------------------------- |
 | Web Development         | Build websites and APIs    |
 | Data Science            | Analyze and visualize data |
 | Machine Learning        | Train predictive models    |
