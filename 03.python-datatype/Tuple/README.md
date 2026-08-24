@@ -36,6 +36,8 @@ print(name)
 ch=('a','b','c')
 
 print(ch[1])
+print(ch[-1])
+
 ```
 
-print(ch[-1])
+
