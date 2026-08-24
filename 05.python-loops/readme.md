@@ -12,8 +12,7 @@
 | Risk of Infinite Loop | Low                      | High if condition never changes   |
 | Example               | List, tuple, string      | Login, game loop, ATM             |
 
-
-```
+```python 
 lines = []
 for i in range(3):
     line = input("Enter line: ")
