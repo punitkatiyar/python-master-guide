@@ -28,9 +28,31 @@
 
 
 
-# Example 
+## range(stop)
 
 ```python
-for num in range(1, 6):
+for num in range(5):
     print(num)
 ```
+
+## range(start, stop)
+
+```python
+for num in range(1,5):
+    print(num)
+```
+
+### range(start, stop, step)
+
+```python
+for num in range(1,10,2):
+    print(num)
+```
+
+
+
+
+
+
+
+
