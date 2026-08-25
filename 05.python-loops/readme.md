@@ -48,6 +48,17 @@ for num in range(1,5):
 for num in range(1,10,2):
     print(num)
 ```
+## Using a Negative Step : Countdown
+
+```python
+for i in range(10, 0, -1):
+    print(i)
+
+for i in range(5, 0, -1):
+    print(i)
+
+print("Start!")
+```
 
 
 
