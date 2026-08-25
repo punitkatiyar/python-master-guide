@@ -13,6 +13,21 @@
 | Risk of Infinite Loop | Low                      | High if condition never changes   |
 | Example               | List, tuple, string      | Login, game loop, ATM             |
 
+## The Python range() 
+
+**function is used to generate a sequence of numbers, most commonly with for loops.**
+
+| Parameter | Meaning                     | Default  |
+| --------- | --------------------------- | -------- |
+| `start`   | Starting number             | `0`      |
+| `stop`    | Ending limit (not included) | Required |
+| `step`    | Difference between numbers  | `1`      |
+
+
+
+
+
+
 # Example 
 
 ```python
