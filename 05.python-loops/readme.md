@@ -59,6 +59,34 @@ for i in range(5, 0, -1):
 
 print("Start!")
 ```
+## Converting range() to a List
+
+```python
+numbers = list(range(5))
+print(numbers)
+
+numbers = list(range(2, 10, 2))
+print(numbers)
+```
+
+## range() with Lists
+
+```python
+students = ["Rahul", "Ravi", "Rohit"]
+
+for i in range(len(students)):
+    print(i, students[i])
+```
+
+## range() with len()
+
+```python
+
+languages = ["Python", "JavaScript", "Java", "C++"]
+for i in range(len(languages)):
+    print(f"{i}: {languages[i]}")
+```
+
 
 
 
