@@ -23,11 +23,6 @@
 | `stop`    | Ending limit (not included) | Required |
 | `step`    | Difference between numbers  | `1`      |
 
-
-
-
-
-
 ## range(stop)
 
 ```python
@@ -87,6 +82,13 @@ for i in range(len(languages)):
     print(f"{i}: {languages[i]}")
 ```
 
+## enumerate() : with index
+
+```
+courses = ["Python", "Java", "React"]
+for index, course in enumerate(courses):
+    print(index, course)
+```
 
 
 
