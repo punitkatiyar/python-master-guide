@@ -75,6 +75,8 @@ for i in range(len(students)):
 
 ## range() with len()
 
+**This is an f-string (formatted string), which allows you to put Python expressions directly inside {}.**
+
 ```python
 
 languages = ["Python", "JavaScript", "Java", "C++"]
