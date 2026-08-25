@@ -90,6 +90,17 @@ for index, course in enumerate(courses):
     print(index, course)
 ```
 
+## zip()
+
+```python
+names = ["Rahul", "Aman", "Priya"]
+marks = [85, 90, 95]
+
+for name, mark in zip(names, marks):
+    print(name, mark)
+```
+
+
 
 
 
