@@ -82,7 +82,7 @@ for i in range(len(languages)):
     print(f"{i}: {languages[i]}")
 ```
 
-## enumerate() : with index
+## enumerate() : with index : Displaying serial numbers in reports or menus.
 
 ```
 courses = ["Python", "Java", "React"]
@@ -90,7 +90,7 @@ for index, course in enumerate(courses):
     print(index, course)
 ```
 
-## zip()
+## zip() : Generating student mark sheets or combining related data.
 
 ```python
 names = ["Rahul", "Aman", "Priya"]
