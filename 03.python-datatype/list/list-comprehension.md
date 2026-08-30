@@ -1,4 +1,6 @@
-# List comprehension provides a compact way to create lists.
+# List comprehension 
+
+> it provides a compact way to create lists.
 
 ## Normal approach
 
