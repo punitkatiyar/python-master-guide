@@ -81,5 +81,35 @@ numbers.clear()
 print(numbers)
 ```
 
+## sort()
+
+```
+nums=[1,3,7,2,6,4,5]
+
+// Ascending
+
+nums.sort()
+
+print(nums)
+
+// Descending 
+
+# nums.sort(reverse=True)
+
+nums.reverse()
+
+print(nums)
+```
+
+
+## copy()
+
+```
+list1=[1,2,3,4,5]
+
+list2=list1.copy()
+
+print(list2)
+```
 
 
