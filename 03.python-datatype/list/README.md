@@ -1,5 +1,12 @@
 # Python List dataType and function :
 
+```
+Index:    0       1       2
+        ┌─────┬─────┬─────┐
+Value:  │  A  │  B  │  C  │
+        └─────┴─────┴─────┘
+```
+
 ## List methods
 
 | Method      | Purpose            |
