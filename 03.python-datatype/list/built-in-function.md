@@ -58,6 +58,19 @@ print(numbers)
 [50, 10, 30]
 ```
 
+## enumerate() is useful when you need both index and value.
+
+```py 
+students = ["Rahul", "Amit", "Priya"]
+
+for index, student in enumerate(students):
+    print(f"Student {index + 1}: {student}")
+
+Student 1: Rahul
+Student 2: Amit
+Student 3: Priya
+```
+
 
 
 
