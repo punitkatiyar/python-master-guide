@@ -1,3 +1,16 @@
+# List Built-in functions
+
+| Function      | Purpose                | Example            |
+| ------------- | ---------------------- | ------------------ |
+| `list()`      | Create/convert to list | `list("ABC")`      |
+| `len()`       | Number of items        | `len(items)`       |
+| `min()`       | Smallest value         | `min(numbers)`     |
+| `max()`       | Largest value          | `max(numbers)`     |
+| `sum()`       | Total                  | `sum(numbers)`     |
+| `sorted()`    | Return sorted list     | `sorted(numbers)`  |
+| `enumerate()` | Index + value          | `enumerate(items)` |
+
+
 ## len() : Returns the number of items.
 
 ```py
