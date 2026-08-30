@@ -10,6 +10,15 @@
 | `sorted()`    | Return sorted list     | `sorted(numbers)`  |
 | `enumerate()` | Index + value          | `enumerate(items)` |
 
+## list()
+
+```py
+nums=list(1,2,3,4,5)
+
+print(nums)
+```
+
+
 
 ## len() : Returns the number of items.
 
