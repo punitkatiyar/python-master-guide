@@ -16,6 +16,12 @@
     ├── break     → Stop loop
     ├── continue  → Skip iteration
     └── else      → Runs if no break
+
+rule:
+👉 for = “for every item”
+👉 while = “while condition is true”
+👉 break = “stop”
+👉 continue = “skip”
 ```
 
 | Feature               | for Loop                 | while Loop                        |
