@@ -21,19 +21,7 @@ nums.reverse()
 print(nums)
 ```
 
-## sorted() creates a new sorted list without changing the original.** 
 
-```py
-numbers = [50, 10, 30]
-
-new_numbers = sorted(numbers)
-
-print(new_numbers)
-print(numbers)
-
-[10, 30, 50]
-[50, 10, 30]
-```
 
 | `sort()`              | `sorted()`          |
 | --------------------- | ------------------- |
