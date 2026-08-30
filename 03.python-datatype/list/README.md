@@ -81,14 +81,14 @@ List
 
 ## Shallow Copy : A shallow copy creates a new outer list, but nested objects are still shared.
 
-```
-original = [[10, 20], [30, 40]]
+```py
+mylist = [[10, 20], [30, 40]]
 
-copy_list = original.copy()
+copy_list = mylist.copy()
 
 copy_list[0][0] = 111
 
-print(original)
+print(mylist)
 
 print(copy_list)
 
