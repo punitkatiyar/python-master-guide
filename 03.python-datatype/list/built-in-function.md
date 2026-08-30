@@ -37,15 +37,29 @@ marks = [75, 88, 92, 65, 80]
 print(min(marks)) // 65
 print(max(marks)) // 92
 print(sum(marks)) // 400
-```
 
-## Average:
-
-```py
+// Average
 average = sum(marks) / len(marks)
 
 print(average)
 ```
+
+## sorted() creates a new sorted list without changing the original.
+
+```py
+numbers = [50, 10, 30]
+
+new_numbers = sorted(numbers)
+
+print(new_numbers)
+print(numbers)
+
+[10, 30, 50]
+[50, 10, 30]
+```
+
+
+
 
 
 
