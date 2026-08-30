@@ -10,7 +10,7 @@ nums.sort()
 
 print(nums)
 
-// descending 
+// Descending 
 
 # nums.sort(reverse=True)
 
