@@ -1,6 +1,5 @@
 # Python List dataType and function :
 
-
 ## List methods
 
 | Method      | Purpose            |
@@ -17,8 +16,6 @@
 | `reverse()` | Reverse list       |
 | `copy()`    | Copy list          |
 
-
-
 ## Built-in functions
 
 | Function      | Purpose                | Example            |
@@ -31,6 +28,20 @@
 | `sorted()`    | Return sorted list     | `sorted(numbers)`  |
 | `enumerate()` | Index + value          | `enumerate(items)` |
 
+## Real-world applications of lists
+
+```
+List
+ │
+ ├── Shopping Cart
+ ├── Student Marks
+ ├── Product Catalog
+ ├── To-Do Tasks
+ ├── Employee Names
+ ├── Order Items
+ ├── API Response Data
+ └── Database Records
+```
 
 
 ## Searching in a List 
