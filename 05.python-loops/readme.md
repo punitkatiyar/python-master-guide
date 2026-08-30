@@ -2,9 +2,12 @@
 
 **A loop in Python is used to execute a block of code repeatedly until a condition becomes false or all items in a sequence have been processed and Python provides two types of loops**
 
-> for loop
-
 > while loop
+> while else 
+> for loop
+> For else
+> Nested Loops
+> Pass, Break and continue Keyword
 
 | Feature               | for Loop                 | while Loop                        |
 | --------------------- | ------------------------ | --------------------------------- |
