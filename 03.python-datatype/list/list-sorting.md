@@ -1,17 +1,20 @@
-# sorting 
+# list sorting 
+
+```py
 
 nums=[1,3,7,2,6,4,5]
 
-# Ascending
+// Ascending
 
-# nums.sort()
+nums.sort()
 
 print(nums)
 
-#descending 
+// descending 
 
 # nums.sort(reverse=True)
 
 nums.reverse()
 
 print(nums)
+```
