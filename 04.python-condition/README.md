@@ -2,6 +2,25 @@
 
 **conditional statements allow your program to make decisions based on conditions (True/False).**  
 
+## Control Statement Flow
+
+```
+              Start
+                │
+                ▼
+          Check Condition
+           ┌────┴────┐
+         True       False
+          │           │
+          ▼           ▼
+       Execute     Else Block
+          │           │
+          └─────┬─────┘
+                ▼
+              Continue
+```
+
+
 ## Basic Syntax 
 
 > if
