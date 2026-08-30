@@ -37,6 +37,31 @@ Value:  │  A  │  B  │  C  │
 
 ## Real-world applications of lists
 
+```py
+cart = []
+
+cart.append("Laptop")
+cart.append("Mouse")
+cart.append("Keyboard")
+
+print("Cart:", cart)
+
+cart.remove("Mouse")
+
+print("Updated Cart:", cart)
+
+print("Total Items:", len(cart))
+
+```
+
+```py
+Cart: ['Laptop', 'Mouse', 'Keyboard']
+Updated Cart: ['Laptop', 'Keyboard']
+Total Items: 2
+```
+
+
+
 ```
 List
  │
