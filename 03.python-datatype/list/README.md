@@ -75,6 +75,54 @@ List
  └── Database Records
 ```
 
+## Shallow Copy vs Deep Copy in Python Lists
+
+**When working with Python lists, copying means creating another list based on an existing list. The important difference is what happens to nested objects.**
+
+## Shallow Copy : A shallow copy creates a new outer list, but nested objects are still shared.
+
+```
+original = [[10, 20], [30, 40]]
+
+copy_list = original.copy()
+
+copy_list[0][0] = 111
+
+print(original)
+
+print(copy_list)
+
+[[111, 20], [30, 40]]
+[[111, 20], [30, 40]]
+
+```
+
+## Deep Copy : A deep copy creates a new outer list and new copies of nested objects.
+
+
+```py 
+import copy
+
+original = [[10, 20], [30, 40]]
+
+copy_list = copy.deepcopy(original)
+
+copy_list[0][0] = 999
+
+print(original)
+print(copy_list)
+
+[[10, 20], [30, 40]]
+[[999, 20], [30, 40]]
+```
+
+
+
+
+
+
+
+
 
 
 
