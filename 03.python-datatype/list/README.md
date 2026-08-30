@@ -1,5 +1,38 @@
 # Python List dataType and function :
 
+
+## List methods
+
+| Method      | Purpose            |
+| ----------- | ------------------ |
+| `append()`  | Add one item       |
+| `extend()`  | Add multiple items |
+| `insert()`  | Add at position    |
+| `remove()`  | Remove by value    |
+| `pop()`     | Remove by index    |
+| `clear()`   | Remove everything  |
+| `index()`   | Find position      |
+| `count()`   | Count occurrences  |
+| `sort()`    | Sort list          |
+| `reverse()` | Reverse list       |
+| `copy()`    | Copy list          |
+
+
+
+## Built-in functions
+
+| Function      | Purpose                | Example            |
+| ------------- | ---------------------- | ------------------ |
+| `list()`      | Create/convert to list | `list("ABC")`      |
+| `len()`       | Number of items        | `len(items)`       |
+| `min()`       | Smallest value         | `min(numbers)`     |
+| `max()`       | Largest value          | `max(numbers)`     |
+| `sum()`       | Total                  | `sum(numbers)`     |
+| `sorted()`    | Return sorted list     | `sorted(numbers)`  |
+| `enumerate()` | Index + value          | `enumerate(items)` |
+
+
+
 ## Searching in a List 
 
 1. **index() Returns the index of an item.**
