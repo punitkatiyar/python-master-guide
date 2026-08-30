@@ -53,3 +53,33 @@ bag[0]="India"
 print(bag)
 ```
 
+## remove elements
+
+```py
+numbers=[1,2,3,4,5,6]
+
+print(numbers)
+
+numbers.remove(5)
+
+numbers.remove(1)
+```
+
+## pop()
+
+```py
+numbers=[1,2,3,4,5,6]
+numbers.pop()
+numbers.pop()
+numbers.pop()
+```
+## clear()
+
+```py
+numbers.clear()
+
+print(numbers)
+```
+
+
+
