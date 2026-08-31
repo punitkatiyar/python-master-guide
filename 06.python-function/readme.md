@@ -24,9 +24,25 @@ def hello(name):
     print("Welcome to",name,!!)
 hello("User")
 
-```
+def employee(name, age, city):
+    print(name)
+    print(age)
+    print(city)
 
-## 3. Function with Return Value
+employee("Punit", 28, "Kanpur")
+```
+## 3. Function with Default Parameters
+
+```py
+def greet(name="Guest"):
+    print("Welcome", name)
+
+greet()
+
+greet("Punit")
+
+```
+## 4. Function with Return Value
 
 ```py
 def add(a, b):
@@ -35,6 +51,16 @@ def add(a, b):
 result = add(10, 20)
 
 print(result)
+
+def calculation(a, b):
+    return a+b, a-b, a*b
+
+add, sub, mul = calculation(20,10)
+
+print(add)
+print(sub)
+print(mul)
+
 ```
 
 
