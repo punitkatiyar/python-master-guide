@@ -61,6 +61,30 @@ fun()
 
 ```
 
+## Docstring
+
+```py
+def add(a,b):
+    """
+    Returns addition of two numbers.
+    """
+    return a+b
+
+print(add.__doc__)
+```
+
+## Type Hints
+
+```py
+def add(a:int,b:int)->int:
+    return a+b
+
+print(add(10,20))
+```
+
+
+
+
 
 
 
