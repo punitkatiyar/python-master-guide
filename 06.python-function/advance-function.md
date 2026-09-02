@@ -35,7 +35,7 @@ calculate(10,20)
 ```
 ## Higher Order Function
 
-```
+```py
 def greet():
     return "Hello"
 
@@ -78,6 +78,18 @@ print(add.__doc__)
 ```py
 def add(a:int,b:int)->int:
     return a+b
+
+print(add(10,20))
+```
+
+## Lambda Function : Anonymous function
+
+```py
+square = lambda x: x*x
+
+print(square(5))
+
+add = lambda a,b:a+b
 
 print(add(10,20))
 ```
