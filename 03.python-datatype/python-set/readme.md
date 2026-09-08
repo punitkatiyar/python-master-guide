@@ -37,3 +37,20 @@ SET
       ├── frozenset
       └── Set as dictionary key
 ```
+
+## Set vs List vs Tuple vs Dictionary
+
+```
+| Feature         | List       | Tuple      | Set         | Dictionary     |
+| --------------- | ---------- | ---------- | ----------- | -------------- |
+| Syntax          | `[]`       | `()`       | `{}`        | `{key:value}`  |
+| Ordered         | ✅          | ✅          | ❌           | ✅*             |
+| Mutable         | ✅          | ❌          | ✅           | ✅              |
+| Duplicates      | ✅          | ✅          | ❌           | Keys ❌         |
+| Indexing        | ✅          | ✅          | ❌           | By key         |
+| Fast membership | Moderate   | Moderate   | ✅           | ✅              |
+| Main use        | Collection | Fixed data | Unique data | Key-value data |
+
+```
+
+
