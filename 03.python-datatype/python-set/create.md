@@ -28,6 +28,20 @@ print(numbers)
 // {10, 20, 30, 40}
 ```
 
+## Set Data Types : A set can contain different hashable data types.
+
+```py
+data = {10, "Python", 3.14, True,"Python"}
+
+print(data)
+
+// my_set = {[1, 2, 3]} **But mutable objects such as lists cannot be elements:**
+
+// TypeError: unhashable type: 'list'
+
+```
+
+
 ## Creating a Set from a List 🎯 Use case: Remove duplicates
 
 ```py
