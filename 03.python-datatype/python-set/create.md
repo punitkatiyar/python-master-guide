@@ -39,6 +39,14 @@ print(data)
 
 // TypeError: unhashable type: 'list'
 
+// A tuple can be used:
+
+my_set = {(1, 2, 3,1,2)}
+
+print(my_set)
+
+// {(1, 2, 3, 1, 2)}
+
 ```
 
 
