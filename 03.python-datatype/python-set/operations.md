@@ -64,6 +64,8 @@ B = {3, 4, 5, 6}
 
 print(A - B)
 
+// {1, 2}
+
 ```
 
 ### Real-world example : Students enrolled in Python but not Java
@@ -76,7 +78,28 @@ java_students = {"Rahul", "Priya", "Vikas"}
 only_python = python_students - java_students
 
 print(only_python)
+
+// {'Amit', 'Neha'}
+
 ```
+
+## Symmetric Difference : Returns elements that exist in either set but not both.
+
+```py
+A = {1, 2, 3, 4}
+B = {3, 4, 5, 6}
+
+print(A ^ B)
+
+// {1, 2, 5, 6}
+
+// using method
+
+print(A.symmetric_difference(B))
+
+```
+
+
 
 
 
