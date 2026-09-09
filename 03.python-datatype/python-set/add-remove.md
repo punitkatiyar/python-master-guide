@@ -69,6 +69,36 @@ print(numbers)
 | `discard(x)` | Removes        | ✅ No error            |
 ```
 
+## pop() : Removes and returns an arbitrary element.
+
+```py
+numbers = {10, 20, 30, 40}
+
+value = numbers.pop()
+
+print("Removed:", value)
+
+print("Remaining:", numbers)
+
+// Removed 40
+// Remaining {10,20,30}
+```
+
+## clear() : Removes everything.
+
+```py
+numbers = {10, 20, 30}
+
+numbers.clear()
+
+print(numbers)
+```
+
+
+
+
+
+
 
 
 
