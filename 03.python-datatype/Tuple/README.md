@@ -1,5 +1,14 @@
 # Tuple  
 
+**A Tuple is an ordered, immutable (cannot be changed) collection in Python. It can store multiple values of different data types.**
+
+## Use Case
+
+- Store fixed data
+- Database records
+- Coordinates (x, y)
+- Configuration values
+
 ## Create 
 
 ```python
