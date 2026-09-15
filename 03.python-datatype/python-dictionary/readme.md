@@ -70,10 +70,55 @@ print(student.get("age"))
 
 print(student.get("city", "Not Found"))
 
+```
+
+## add item
+
+```
+student["course"] = "python"
 
 ```
 
+## Updating Dictionary
 
+```py
+student = {
+    "name": "ducat",
+    "course": "java"
+}
+
+student["course"] = "python"
+
+print(student)
+
+# method
+
+student.update({
+    "age": 21,
+    "city": "Kanpur"
+})
+
+```
+
+## Remove
+
+```py
+
+student.pop("age")
+
+## Removes the last inserted key-value pair.
+student.popitem()
+
+
+## del
+
+del student["name"]
+
+## clear()
+
+student.clear()
+
+```
 
 
 
