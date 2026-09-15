@@ -1,6 +1,6 @@
 # Python set datatype
 
-**A Set in Python is an unordered, mutable collection of unique elements. Sets are mainly used when you need to store distinct values and perform mathematical operations like union, intersection, and difference.**
+**A set in Python is a collection used to store unique values. It is especially useful when you need to remove duplicates, perform mathematical set operations, or quickly check whether an item exists.**
 
 ## 1. What is a Set?
 
