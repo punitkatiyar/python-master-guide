@@ -24,5 +24,33 @@ student = {
 - Create lookup tables
 - Group related information
 
+## Features of Dictionary
+
+- Mutable (can be modified)
+- Keys are unique
+- Values can be duplicate
+- Stores multiple data types
+- Fast searching using keys
+
+## Creating Dictionary
+
+```python
+student = {
+    "name": "user",
+    "year": 2026
+}
+
+student = dict(name="Amit", year=2026)
+
+print(student)
+
+student = dict([
+    ("name", "user"),
+    ("year", 2026)
+])
+
+print(student)
+
+```
 
 
