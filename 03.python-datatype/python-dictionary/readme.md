@@ -35,22 +35,47 @@ student = {
 ## Creating Dictionary
 
 ```python
+# method 1
 student = {
     "name": "user",
     "year": 2026
 }
-
+# method 2
 student = dict(name="Amit", year=2026)
 
 print(student)
 
+# method 3
 student = dict([
     ("name", "user"),
     ("year", 2026)
 ])
 
 print(student)
+```
+## Accessing Values
+
+```py
+student = {
+    "name": "user",
+    "year": 2026
+}
+
+print(student["name"])
+
+# method
+print(student.get("age"))
+
+# default value
+
+print(student.get("city", "Not Found"))
+
 
 ```
+
+
+
+
+
 
 
