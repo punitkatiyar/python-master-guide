@@ -48,7 +48,7 @@ SET
 
 ## Set vs List vs Tuple vs Dictionary
 
-```
+
 | Feature         | List       | Tuple      | Set         | Dictionary     |
 | --------------- | ---------- | ---------- | ----------- | -------------- |
 | Syntax          | `[]`       | `()`       | `{}`        | `{key:value}`  |
@@ -59,6 +59,5 @@ SET
 | Fast membership | Moderate   | Moderate   | ✅           | ✅              |
 | Main use        | Collection | Fixed data | Unique data | Key-value data |
 
-```
 
 
