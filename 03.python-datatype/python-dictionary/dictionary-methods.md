@@ -1,6 +1,6 @@
 # Methods List
 
-```
+
 | Method         | Description                      |
 | -------------- | -------------------------------- |
 | `get()`        | Returns value of key             |
@@ -14,5 +14,3 @@
 | `copy()`       | Creates copy                     |
 | `setdefault()` | Returns value or inserts default |
 | `fromkeys()`   | Creates dictionary from keys     |
-
-```
