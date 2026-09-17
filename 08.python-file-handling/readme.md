@@ -21,7 +21,6 @@ Close
 
 > **file = open("filename.txt", "mode")**
 
-```
 | Mode | Meaning         | If file doesn't exist  |
 | ---- | --------------- | ---------------------- |
 | `r`  | Read            | Error                  |
@@ -34,7 +33,7 @@ Close
 | `b`  | Binary mode     | Used with another mode |
 | `t`  | Text mode       | Default                |
 
-```
+
 - Always close a manually opened file:
 
 
