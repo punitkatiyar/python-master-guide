@@ -1,17 +1,5 @@
 # file Handling 
 
-## Use Case
-
-- Employee reports
-- Student reports
-- Invoice files
-- Attendance reports
-- Application logs
-- Expense reports
-- Customer records
-
-
-
 | Mode   | Description                       |
 | ------ | --------------------------------- |
 | `"r"`  | Read only (file must exist)       |
@@ -103,5 +91,16 @@ with open("students.txt", "w") as file:
 
 print("Student data saved!")
 ```
+
+## Use Case
+
+- Employee reports
+- Student reports
+- Invoice files
+- Attendance reports
+- Application logs
+- Expense reports
+- Customer records
+
 
 
