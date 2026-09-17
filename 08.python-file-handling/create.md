@@ -50,6 +50,26 @@ with open("example.txt", "a") as file:
 with open("example.txt", "x") as file:
     file.write("New file created!")
 ```
+## writelines()
+
+```py
+students = [
+    "Rahul\n",
+    "Amit\n",
+    "Priya\n"
+]
+
+file = open("students.txt", "w")
+
+file.writelines(students)
+
+file.close()
+
+```
+
+
+
+
 ## Example
 
 ```py
