@@ -7,3 +7,13 @@
 - Built-in Modules
 - User-Defined Module
 - Third-Party Modules
+
+```py
+  def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+```
+
+
