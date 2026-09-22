@@ -16,6 +16,13 @@
 
 ## Example Of Module 
 
+```
+project/
+│
+├── main.py
+└── calculator.py
+```
+
 ```py
 # calculator.py
 
@@ -46,6 +53,54 @@ print(calculator.PI)
 - Avoid duplicate code
 - Make code easier to maintain
 - Separate functionality
+
+## Different Ways to Import Modules
+
+> **Method 1 — Import entire module**
+
+```py
+import math
+
+print(math.sqrt(16))
+```
+
+> **Method 2 — Import specific function**
+
+```py
+from math import sqrt
+
+print(sqrt(16))
+```
+
+> **Method 3 — Import multiple functions**
+
+```py
+from math import sqrt, pow
+
+print(sqrt(25))
+print(pow(2, 3))
+```
+
+> **Method 4 — Alias**
+
+```py
+import datetime as dt
+
+print(dt.datetime.now())
+
+# example
+
+import pandas as pd
+```
+
+
+
+
+
+
+
+
+  
 
 
 
