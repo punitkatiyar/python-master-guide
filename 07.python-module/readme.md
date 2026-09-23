@@ -120,6 +120,22 @@ import pandas as pd
 > Create a main.py file that:
 > Opens each Python file using file handling (open()).
 
+```
+Project/
+│
+├── file1.py
+├── file2.py
+├── file3.py
+├── file4.py
+├── file5.py
+├── file6.py
+├── file7.py
+├── file8.py
+├── file9.py
+├── file10.py
+└── main.py
+```
+
 
 
 
