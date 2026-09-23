@@ -94,6 +94,33 @@ import pandas as pd
 ```
 
 
+# Question 1: OS Module
+
+> How many built-in functions and features does the Python os module provide?
+
+# Question 2: File Handling with Multiple Python Modules
+
+> Create 10 different Python files (.py) containing user-defined functions according to the following requirements:
+
+> The functions should follow this distribution:
+
+> 4 files should contain functions that use loops (for or while).
+
+> 3 files should contain functions that use if-else statements.
+
+> 3 files can contain functions of your choice (e.g., string operations, mathematical calculations, list operations, recursion, etc.).
+
+> Every file must use  four major Python data types:
+
+- List
+- Dictionary
+- Set
+- Tuple
+
+> Create a main.py file that:
+> Opens each Python file using file handling (open()).
+
+
 
 
 
