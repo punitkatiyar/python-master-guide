@@ -10,7 +10,7 @@ app = Student()
 ```
 
 
-```
+```py
 class Student: 
     def __init__(self,fullName):
         self.name=fullName
