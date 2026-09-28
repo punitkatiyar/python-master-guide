@@ -1,4 +1,4 @@
-# Constructor (init)
+## Constructor (init)
 
 ```py
 class Student: 
@@ -9,6 +9,7 @@ class Student:
 app = Student()
 ```
 
+## Constructor with Parameters
 
 ```py
 class Student: 
