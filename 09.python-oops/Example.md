@@ -1,9 +1,15 @@
 # class
 
 ```py
+# create a class
 class Student:
     name = "Rohit"
-print(Student.name)
+
+print(Student) 
+
+# create object
+app= Student()
+print(app.name)
 
 ```
 
