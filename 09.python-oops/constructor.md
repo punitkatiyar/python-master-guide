@@ -1,4 +1,4 @@
-## Constructor (init)
+## Constructor (init) :: Automatically called when an object is created.
 
 ```py
 class Student: 
@@ -23,7 +23,7 @@ app = Student("Punit")
 print(app.name)
 ```
 
-## self Keyword
+## self Keyword :: refers to the current object.
 
 ```py
 class Student:
@@ -36,7 +36,7 @@ s = Student("Punit")
 print(s.name)
 ```
 
-## Instance Variable
+## Instance Variable :: Each object has its own copy.
 
 ```py
 class Student:
