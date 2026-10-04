@@ -2,70 +2,37 @@
 
 ## list (Array) : Ordered, mutable (changeable) collection.
 
-**✔ Example**
-```
+```py
 fruits = ["apple", "banana", "mango"]
 fruits.append("orange")
 ```
 
-**✔ Use Cases**
+**✔ Use Cases :: Storing multiple items, Dynamic data like cart items, API responses that return arrays.**
 
-Storing multiple items, Dynamic data like cart items, API responses that return arrays.
-
-🔹 7. tuple
-✔ What is it?
-
-Ordered, immutable collection.
-
-✔ Example
+## tuple :: Ordered, immutable collection.
+```py
 point = (10, 20)
+```
+**✔ Use Cases Fixed data (coordinates, configuration)
 
-✔ Use Cases
+## 8. set :: Unordered collection of unique items.
 
-Fixed data (coordinates, configuration)
-
-Dictionary keys
-
-Performance boost (faster than lists)
-
-🔹 8. set
-✔ What is it?
-
-Unordered collection of unique items.
-
-✔ Example
+```py
 unique_ids = {1, 2, 3, 3, 2}
 print(unique_ids)  # {1, 2, 3}
+```
+**✔ Use Cases :: Removing duplicates :: Membership testing (in) :: Mathematical operations (union, intersection)**
 
-✔ Use Cases
-
-Removing duplicates
-
-Membership testing (in)
-
-Mathematical operations (union, intersection)
-
-🔹 9. dict (Dictionary)
-✔ What is it?
-
-Key-value pair collection.
-
-✔ Example
+## 9. dict (Dictionary) :: Key-value pair collection.
+```py
 person = {
     "name": "Punit",
     "age": 25,
     "is_student": False
 }
+```
 
-✔ Use Cases
-
-JSON-like structures
-
-API data
-
-Settings/config
-
-Database records
+**✔ Use Cases :: JSON-like structures :: API data :: Settings/config :: Database records**
 
 🔵 Special Data Types
 🔹 10. NoneType
