@@ -21,3 +21,26 @@ Program ├── Task B
         ├── Task C
         └── Task D
 ```
+
+## Why Use Multithreading?
+
+```py
+import time
+
+def task(name):
+    print(f"{name} started")
+    time.sleep(2)
+    print(f"{name} completed")
+
+
+task("Task 1")
+task("Task 2")
+task("Task 3")
+```
+> Each task waits for 2 seconds.
+
+
+
+
+
+
