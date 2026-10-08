@@ -23,7 +23,7 @@ print("Main program completed")
 | `start()` | Starts thread execution |
 | `run()` | Contains thread's execution logic |
 | `join()` | Waits for thread to finish |
-| `is_alive()` | Checks whether thread is running |
+
 
 
 
@@ -55,3 +55,41 @@ t3.join()
 
 print("All tasks completed")
 ```
+
+## Passing Arguments to Threads
+
+```py
+import threading
+
+def greet(name):
+    print(f"Hello {name}")
+
+
+t1 = threading.Thread(
+    target=greet,
+    args=("Punit",)
+)
+
+t1.start()
+t1.join()
+
+# pass multiple argument
+
+def add(a, b):
+    print(a + b)
+
+
+t = threading.Thread(
+    target=add,
+    args=(10, 20)
+)
+
+t.start()
+t.join()
+
+```
+
+
+
+
+
