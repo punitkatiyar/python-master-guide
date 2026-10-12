@@ -13,3 +13,28 @@ print(a / b)
 
 # ZeroDivisionError: division by zero
 ```
+
+## case Two
+
+```py
+balance = 5000
+withdraw = int(input("Enter amount: "))
+
+balance = balance - withdraw
+
+print("Remaining balance:", balance)
+```
+
+## Solution
+
+```py
+balance = 5000
+
+try:
+    withdraw = int(input("Enter amount: "))
+    balance = balance - withdraw
+    print("Remaining balance:", balance)
+
+except ValueError:
+    print("Please enter a valid number.")
+```
