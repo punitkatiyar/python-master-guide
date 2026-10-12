@@ -25,6 +25,28 @@ balance = balance - withdraw
 print("Remaining balance:", balance)
 ```
 
+## Basic Exception Handling Syntax
+
+```py
+try:
+    # code that may cause an exception
+
+except:
+    # code to handle the exception
+```
+
+```py
+try:
+    number = int(input("Enter a number: "))
+    print(10 / number)
+
+except:
+    print("Something went wrong!")
+```
+
+
+
+
 ## Solution
 
 ```py
