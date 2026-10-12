@@ -32,15 +32,6 @@ except:
     # code to handle the exception
 ```
 
-```py
-try:
-    number = int(input("Enter a number: "))
-    print(10 / number)
-
-except:
-    print("Something went wrong!")
-```
-
 ## Example one
 
 ```py
@@ -52,6 +43,7 @@ print(a / b)
 # ZeroDivisionError: division by zero
 ```
 
+
 ## Solution
 
 ```py
@@ -60,6 +52,15 @@ try:
 
 except ZeroDivisionError:
     print("Cannot divide by zero.")
+```
+## Using Input 
+```py
+try:
+    number = int(input("Enter a number: "))
+    print(10 / number)
+
+except:
+    print("Something went wrong!")
 ```
 
 ## Example Two
