@@ -2,6 +2,23 @@
 
 **Exception handling is a mechanism in Python used to handle runtime errors without stopping the entire program unexpectedly.**
 
+## Common Built-in Exceptions
+
+| Exception | Meaning | Example |
+|---|---|---|
+| `ValueError` | Invalid value | `int("abc")` |
+| `TypeError` | Wrong data type | `"10" + 5` |
+| `ZeroDivisionError` | Division by zero | `10 / 0` |
+| `IndexError` | Invalid list index | `items[10]` |
+| `KeyError` | Missing dictionary key | `data["age"]` |
+| `FileNotFoundError` | File doesn't exist | `open("abc.txt")` |
+| `AttributeError` | Invalid attribute | `obj.xyz` |
+| `NameError` | Variable doesn't exist | `print(x)` |
+| `ImportError` | Import problem | invalid import |
+| `ModuleNotFoundError` | Module unavailable | `import xyz` |
+| `PermissionError` | Permission denied | restricted file |
+| `OverflowError` | Numeric overflow | extremely large calculation |
+
 ## Basic Exception Handling Syntax
 
 - The try block contains code that may generate an exception
