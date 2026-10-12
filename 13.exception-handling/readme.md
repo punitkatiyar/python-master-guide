@@ -2,30 +2,10 @@
 
 **Exception handling is a mechanism in Python used to handle runtime errors without stopping the entire program unexpectedly.**
 
-
-## case one
-
-```py
-a = 10
-b = 0
-
-print(a / b)
-
-# ZeroDivisionError: division by zero
-```
-
-## case Two
-
-```py
-balance = 5000
-withdraw = int(input("Enter amount: "))
-
-balance = balance - withdraw
-
-print("Remaining balance:", balance)
-```
-
 ## Basic Exception Handling Syntax
+
+- The try block contains code that may generate an exception
+- The except block handles the exception.
 
 ```py
 try:
@@ -44,8 +24,37 @@ except:
     print("Something went wrong!")
 ```
 
+## Example one
 
+```py
+a = 10
+b = 0
 
+print(a / b)
+
+# ZeroDivisionError: division by zero
+```
+
+## Solution
+
+```py
+try:
+    result = 10 / 0
+
+except ZeroDivisionError:
+    print("Cannot divide by zero.")
+```
+
+## Example Two
+
+```py
+balance = 5000
+withdraw = int(input("Enter amount: "))
+
+balance = balance - withdraw
+
+print("Remaining balance:", balance)
+```
 
 ## Solution
 
@@ -60,3 +69,37 @@ try:
 except ValueError:
     print("Please enter a valid number.")
 ```
+
+## Handling Different Exceptions
+
+```py
+try:
+    number = int(input("Enter number: "))
+    result = 100 / number
+    print(result)
+
+except ValueError:
+    print("Please enter a valid integer.")
+
+except ZeroDivisionError:
+    print("Number cannot be zero.")
+
+```
+
+## Multiple Exceptions in One except
+
+```py
+try:
+    number = int(input("Enter number: "))
+    result = 100 / number
+
+except (ValueError, ZeroDivisionError):
+    print("Invalid input or division by zero.")
+```
+
+
+
+
+
+
+
