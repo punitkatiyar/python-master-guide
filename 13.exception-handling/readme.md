@@ -2,6 +2,8 @@
 
 **Exception handling is a mechanism in Python used to handle runtime errors without stopping the entire program unexpectedly.**
 
+
+
 ## Common Built-in Exceptions
 
 | Exception | Meaning | Example |
@@ -18,6 +20,15 @@
 | `ModuleNotFoundError` | Module unavailable | `import xyz` |
 | `PermissionError` | Permission denied | restricted file |
 | `OverflowError` | Numeric overflow | extremely large calculation |
+
+## built-in and custom exceptions
+
+| Built-in exception | Custom exception |
+|--------|---------|
+| Provided by Python | Created by the developer |
+| Example: ValueError |	Example: InvalidAgeError |
+| Used for common programming errors | Used for application-specific errors |
+| No class definition required | Usually requires a class definition |
 
 ## Basic Exception Handling Syntax
 
