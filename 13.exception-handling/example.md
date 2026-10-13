@@ -2,6 +2,8 @@
 
 > Exception handling is very useful in banking applications.
 
+
+
 ```py
 balance = 10000
 
@@ -25,4 +27,21 @@ else:
 
 finally:
     print("Thank you for using our banking service.")
+```
+
+
+## Execution flow:
+
+```
+             try
+              |
+       ┌──────┴──────┐
+       |             |
+     Error         Success
+       |             |
+    except          else
+       |             |
+       └──────┬──────┘
+              |
+           finally
 ```
