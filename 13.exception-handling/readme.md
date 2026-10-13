@@ -126,6 +126,19 @@ except (ValueError, ZeroDivisionError):
     print("Invalid input or division by zero.")
 ```
 
+## Getting the Exception Object
+
+```py
+try:
+    number = int("abc")
+
+except ValueError as e:
+    print("Error:", e)
+```
+
+
+
+
 
 
 
