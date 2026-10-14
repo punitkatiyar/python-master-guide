@@ -73,6 +73,20 @@ print(numbers)
 # ['10', '20', '30']
 ```
 
+## re.findall() with Characters
+
+```py
+import re
+
+text = "Python Java C++ JavaScript"
+
+result = re.findall(r"\w+", text)
+
+print(result)
+
+# ['Python', 'Java', 'C', 'JavaScript']
+```
+
 
 
 
